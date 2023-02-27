@@ -28,7 +28,6 @@ td, th {
             data: {
             search: search,
             },
-
             success: function (response) {
             // $(input).val(quantity);
             console.log(response);
