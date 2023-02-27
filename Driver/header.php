@@ -7,11 +7,9 @@ if($details)
 {
 $profile=mysqli_fetch_array($details);
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <title>Taxibooking</title>

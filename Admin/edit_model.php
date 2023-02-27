@@ -62,7 +62,7 @@ if(isset($_POST["btnsubmit"]))
 	$sql=mysqli_query($conn,"UPDATE tbl_model SET model='$modelname',Description='$modeldescription'WHERE model_id='$model_id'");
 	if($sql)
 	{
-		echo "<script>alert('Model Details Updated Succesfully!!');location='view_model.php'</script>";
+		echo "<script>alert( 'Model Details Updated Succesfully!!');location='view_model.php'</script>";
 	}
 }
 ?>

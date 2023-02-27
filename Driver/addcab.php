@@ -12,7 +12,6 @@ include("dbconn.php");
 ?>
 <form action="addcabaction.php" method="post" enctype="multipart/form-data" style=" padding-top: 8%;background-color:#909090;"style="margin-left:93px; margin-bottom:10%;padding-left:130px; box-shadow: 2px 2px 10px #1b93e1; border-radius: 4px; top: 14px; padding-top: 3%;">
         <h2 style="text-align: center;margin-top: 6%;">CAB REGISTRATION</h2>
-
     <br>
     <div >
      <div  style="text-align:left">
@@ -56,7 +55,6 @@ while($row=mysqli_fetch_array($sql))
     </div>
     <br>
 
-
      <div >
      <div  style="text-align:left">
         <label>Type </label>
@@ -99,10 +97,6 @@ while($row=mysqli_fetch_array($sql))
     </div>
     </div>
     
-
-
-
-
     <br>
     <div >
      <div  style="text-align:left">

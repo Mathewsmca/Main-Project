@@ -4,9 +4,7 @@ include "dbconn.php";
 // if(isset($_POST['cart'])&&isset($_POST['quantity']))
 // {
 
-
 $search = $_POST["search"];
-
 // echo "<script>alert($cart)/<script>" ;
 // echo "<script>alert('a');</script>";
 $sql = "SELECT tbl_cab.*,tbl_model.* FROM `tbl_cab` inner join tbl_model on tbl_cab.si_no=tbl_model.model_id where tbl_cab.si_no='$search'";
