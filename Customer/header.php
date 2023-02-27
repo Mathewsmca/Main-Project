@@ -10,7 +10,7 @@ $profile=mysqli_fetch_array($details);
 
 ?>
 <!DOCTYPE html>
-<html lang="enn">
+<html lang="en">
 
 <head>
 
