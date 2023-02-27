@@ -1,0 +1,12 @@
+<?php
+session_start();
+if(!isset($_SESSION['d_id']))
+{
+    header('location:../Driver/index.php');
+    exit();
+}
+else
+{
+    $login_id=$_SESSION['d_id'];
+}
+?>
