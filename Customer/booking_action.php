@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Cab Details</title>
+<title>Booking now</title>
 </head>
 <body bgcolor="#DEFCFD">
 <?php
@@ -24,11 +24,11 @@ $row=mysqli_fetch_array($result);
         <p style="color:green"><b>
           <?php  echo $row['cab_number']?>
           </b> </p>
-          <p style="color:black;font-size: larger;">Cab Name:</p>
+          <p style="color:black;font-size: larger;"> Name:</p>
         <p style="color:green"><b>
           <?php  echo $row['cab_name']?>
           </b> </p>
-          <p style="color:black;font-size: larger;">Type:</p>
+          <p style="color:black;font-size: larger;">picklocation:</p>
         <p style="color:green"><b>
           <?php  echo $row['type']?>
           </b> </p>

@@ -9,7 +9,7 @@
 <?php
 
 include("dbconn.php");
-?>
+?> 
 <form action="register.php" style="padding-top: 7%;">
   <div  style="margin-left:124px; margin-bottom:5%;padding-left:-25px; box-shadow: 2px 2px 10px #000000; border-radius: 4px; top: 14px;padding-top:5%;">
     <h2 style="text-align: center;margin-left: 1%;margin-bottom: -8%;margin-top: -5%;font-family: fantasy;">...Available Taxi...</h2>

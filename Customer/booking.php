@@ -76,6 +76,7 @@
 			<input type="time" id="dropoff-time" name="dropoff-time" placeholder="Enter dropoff time">
 
 			<input type="submit" value="Confirm now" onclick="confirm()">
+			
 		</div>
 	</form>
 </body>
